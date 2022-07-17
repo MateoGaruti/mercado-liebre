@@ -1,0 +1,141 @@
+
+
+img {    
+    width: 500px;
+}
+
+
+.imagen {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:left;
+    background-color: red;
+    width: 500px;
+}
+
+    
+
+.menu-uno{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin: 24px;
+} 
+
+    
+
+
+.menu-dos{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content:right;
+    margin: 24px;
+}
+
+.imagen-banner {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+}
+
+.imagen-banner img {
+    width: 1000px;
+}
+
+.imagen-cafe {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.imagen-cafe img {
+    width: 450px;
+    /*Marco- NUEVO */
+    box-sizing: border-box;
+    width: 450px;
+    border: solid black 10px;
+    
+}
+
+
+*/
+.imagen-mac {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    
+}
+
+.imagen-mac img {
+    width: 400px;
+    /*MARCO-NUEVO*/
+    box-sizing: border-box;
+    width: 450px;
+    border: solid black 10px;
+}
+
+.imagen-celular{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+}
+
+.imagen-tv {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    
+}
+
+footer{ /*FINAL DE PAG*/
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color:yellow;
+    padding: 3px;
+}
+
+h2{
+    text-decoration:underline;
+}
+
+h3, h4 {
+    text-decoration:underline;
+    font-size: 25px;
+}
+
+h5 {
+    font-size: 20px;
+}
+
+
+.boton { /*Boton */
+    background-color: yellow;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    
+}
+
+.boton p{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:end;
+}
+
+/* arriba CAJAS PARA LAS FOTOS DE LOS ARTICULOS */
+
+.texto-mac, .texto-cafetera, .texto-tv, .texto-samsung {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-content: space-evenly;
+    padding: 2%;
+}
+
+.busqueda {
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: center;
+}

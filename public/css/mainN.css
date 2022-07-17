@@ -1,0 +1,111 @@
+main{
+    background-color:#ebebeb;
+}
+
+h1{
+    padding: 10px;
+   
+    
+}
+
+
+
+.productos{ /*TODOS LOS ELEMENTOS DENTRO DEL CONTENEDOR PRODCUTOS*/
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style-type: none;  
+    padding-top: 25px;
+}
+
+.productos li{
+    /*EL BORDER CON: tamaño, estilo, color*/ 
+    /*separecion de foto y foto*/
+    width: 90%;
+    margin:10px;
+    background-color:white;
+}
+
+.img-banner img{
+    max-width: 100%;
+    width: 100%;
+    object-fit:cover;
+}
+
+.img-cafe, .img-mac, .img-cel, .img-tv{
+    max-width: 100%;
+    
+}
+
+p {
+    display: flex;
+    padding: 10px;
+    
+}
+
+span {
+    color: green;
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 10px;
+}
+
+.modelo-caf, .modelo-mac, .modelo-sam, .modelo-tv {
+    font-weight: bold;
+    
+
+}  /*LETRAS DEL MODELO */
+
+.caja{
+    padding: 1px;
+    max-width: 100%;
+    width: 100%;
+    background-color: whitesmoke;
+    border-top:1px solid;/*CAMION*/
+    position: relative; /*EL camion toma la caja*/
+}
+
+
+
+.fa-truck {
+    color: #39b54a;;
+    display: flex;
+    justify-content: flex-end;
+    display: block;
+    font-size: 16px;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #39b54a;
+    background-color: #FFF;
+    border-radius: 50%;
+    position: absolute; 
+    right: 20px;
+    top: -15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width:768px) { /*MEDIDA TABLET*//*con pisas y modificables*/
+    .productos li {
+        width: 48vw; /**/
+    }
+
+}
+
+@media (min-width:1200px) { /*Media desktop + notbook*/
+    .productos li {
+        width: 24%;
+    }
+}
+

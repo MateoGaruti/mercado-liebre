@@ -1,0 +1,114 @@
+/* <UNO SOLO QUE CONTROLA TODOS> */
+span {
+    color: green;
+    font-size: 16px;
+ }
+
+h1 {
+    font-size: 24px;
+    padding-top: 50px;
+    
+}
+
+ul{
+    list-style-type: none;
+}
+
+.productos {
+    background-color:#ebebeb;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/* </UNO SOLO QUE CONTROLA TODOS> */
+
+/*<cafe>*/
+.imagen-caf{ /*Controlo imagen de la cafetera*/
+    
+    display: flex;
+    flex-wrap: nowrap;
+    height: 500px;
+    padding-top: 20px;
+}
+
+
+
+/* </cafe> */
+
+/* <mac> */
+
+.img-mac {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 500px;
+    padding-top: 15px;
+} 
+
+
+
+
+/* </mac> */
+
+/* <celular> */
+.img-cel{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 15px;
+    width: 500px;
+}
+
+
+
+/* </celular> */
+
+/* <tv> */
+.img-tv {
+    padding-top:15px;
+    height:500px;
+}
+
+/* </tv> */
+
+
+/*CONJUNTO DE ELEMENTOS*/
+
+.precio, .precio-mac, .precio-sam, .precio-tv {
+    font-size:18px ;
+    background-color: white;   
+}
+
+
+.modelo-mac, .modelo-caf, .modelo-sam, .modelo-tv {
+    font-size: 16px;
+    font-weight: bold;
+    background-color: white;
+
+}
+
+
+
+.productos a{ /*EL CAMION*/
+    color: green;
+    display: flex;
+    justify-content:end;
+    background-color: white;
+    padding-top: 1;
+    
+    
+}
+
+.productos i{ /**/
+    background-color: wheat;
+    border-color: aqua;
+    display: flex;
+    justify-content: center;
+    width: 40px; 
+    height: 35px;
+    border: 150px;
+    border-radius: 100%;
+    padding: 10px;
+}
+

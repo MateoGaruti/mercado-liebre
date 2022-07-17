@@ -1,0 +1,66 @@
+
+/*footer {
+    background-color: yellow;
+}*/
+
+h2 {
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: center;
+}
+
+h3{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+h4 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-size: x-large;
+
+}
+
+h5 {
+    padding-top: 20px;
+}
+
+
+.fa-credit-card{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-size: 50px;
+    padding-top: 15px;
+    color: #1259c3;;
+}
+
+.fa-gift {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-size: 50px;
+    color: #1259c3;;
+    padding-top: 10px;
+}
+
+
+.fa-user-shield {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-size: 50px;
+    color: #1259c3;;
+    padding-top: 10px;
+}
+
+footer p{
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
