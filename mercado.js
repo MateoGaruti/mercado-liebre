@@ -3,7 +3,7 @@ let express = require ("express")
 let app = express ();
 
 let path = require ("path");
-const { env } = require("process");
+
 
 const public = path.resolve (__dirname, "./public") // parado en la carpeta public // con esto logro que mi imagen aprezaca
 
