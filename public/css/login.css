@@ -1,0 +1,24 @@
+body {
+    display: flex;
+    justify-content: center;
+}
+
+
+p:hover{  /*Toma color la letra principal al pasar por arriba y lo subrraya*/
+    color: maroon;
+    text-decoration: underline;
+
+}
+
+/*.warning-text:hover { "por ahora no funciona"
+    color: red;
+    background-color: yellow;
+}*/
+
+input:focus { /*Cuando escribo dentro del formulario*/
+    /*Las letras en este caso cambiaran del color.*/
+    color: none;
+    background-color: none;
+    /*MUY FEO*/
+}
+
