@@ -103,14 +103,19 @@ span {
 
 @media (min-width:768px) { /*MEDIDA TABLET*//*con pisas y modificables*/
     .productos li {
-        width: 48vw; /**/
+        width: 38vw; /**/
     }
+    .fa-magnifying-glass{ /*CAJA DE LA LUPA*/
+        margin: 11px;
+        height: 14px;
+    }
+    
 
 }
 
 @media (min-width:1200px) { /*Media desktop + notbook*/
     .productos li {
-        width: 24%;
+        width: 20%;
     }
 }
 

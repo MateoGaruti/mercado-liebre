@@ -1,35 +1,96 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="/css/register.css" rel="stylesheet" >
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <meta name="viewport" content="width=divece-wid th, initial-scale=1">
+  <!--iconos-->
+  <link  href="/css/header.css"  rel="stylesheet">  
+  <link  href="/css/footer.css"  rel="stylesheet">
+  <link  href="/css/register.css"  rel="stylesheet">
+  <title>registro</title>
 </head>
   <body>
-      <form action="/" method="post">
+    <header>
+      <section id="header-top"> 
+          <picture class="imagen-prin">
+                  <a href="/" ><img class="logo-mp" src="/img/logo-mercado-liebre.svg"></a>
+          </picture>
+              <form id="busqueda">
+                  <input type="search" placeholder="Buscar Productos, marcas">
+                  <button><i class="fa-solid fa-magnifying-glass"></i></button>    
+              </form>
+              <p class="cuotas"><i class="fa-solid fa-hand-holding-dollar"></i>Compra en cuotas y sin tarjeta de credito </p>
+      </section>
+      <section class="menues">
+          <nav class="menu-uno">
+              <a class="ofertas" href="#">Ofertas </a>
+              <a class="tiendas" href="#">Tiendas oficial</a>
+              <a class="vender" href="#">Vender</a>
+              <a class="ayudas" href="#">Ayuda</a>
+          </nav>
+          <nav class="menu-dos">
+              <a class="crear-cuenta" href="/registro">Crea tu ceunta<i class="fa-solid fa-address-card"></i></a>
+              <a class="ingresa" href="/login">Ingresá <i class="fa-solid fa-arrow-right-to-bracket"></i></a>
+              <a class="compras" href="#">Mis compras <i class="fa-solid fa-cart-shopping"></i></a> 
+          </nav>
+      </section>
+      <div class="barcs">
+         <i class="fa-solid fa-bars"></i>
+      </div>   
+  </header>
+    <main>
+      <form id="registro" action="/" method="post"> <!-- SE PODRIA HACER PERO SE VA A COMPLICAR CON UNA SECCTION -->
         <input type="text" placeholder="Nombre y Apellido">
         <input type="text" placeholder="Nombre de usuario">
         <input type="email" placeholder="E-mail">
-        <h1>Fehca de nacimiento</h1>
+        <h2>Fehca de nacimiento</h2>
         <input type="date" placeholder="Fecha de nacimiento">
         <input type ="text" placeholder="Domiciolio">
         <h2>Perfil de usuario</h2>
-        <input type="radio" name="tipodeuso">comprador
-        <input type="radio" name="tipodeuso">vendedor
-        <h3>Intereses</h3>
-        <input type="checkbox" name="electro">Electro</input>
-        <input type="checkbox" name="moda">Moda</input>
-        <input type="checkbox" name="hogar">Hogar</input>
-        <input type="checkbox" name="juegeteria">Juegeteria</input>
-        <input type="checkbox" name="sana">Vida sana</input>
+        <article id="radio">
+          <section class="radio"> <!-- Radio -->
+            <input type="radio" name="tipodeuso" id="comprador" value="comprador">
+            <label for="comprador" >Comprador</label>
+          </section>
+          <section class="radio">
+            <input type="radio" name="tipodeuso" id="vendedor" value="vendedor">
+            <label for="vendedor" >vendedor</label>
+          </section>
+        </article>
+        <h3>Intereses</h3> <!-- checkbox -->
+        <section class="check">
+          <input type="checkbox" name="interes" id="electro" value="electro">
+          <label for="electro">Electro</label>
+        </section>
+        <section class="check-dos">
+           <input type="checkbox" name="interes" id="moda" value="moda">
+           <label for="moda">Moda</label>
+        </section>
+        <section class="check-tres">
+          <input type="checkbox" name="interes" id="hogar" value="hogar">
+          <label for="hogar">hogar</label>
+        </section>
+        <section class="check-cuatro">
+          <input type="checkbox" name="interes" id="jugeteria" value="jugeteria">
+          <label for="jugeteria">Jugeteria</label>
+        </section>
+        <section class="check-cinco">
+          <input type="checkbox" name="interes" id="vida-sana" value="vida-sana">
+          <label for="vida-sana">vida sana</label>
+        </section>
         <input type="file" name="imagen-perfil" accept=".jpg">Imagen  
         <h4>Contraseña</h4>
         <input type="password" placeholder="Contraseña" id="password" required>
         <input type="password" placeholder="Confirmar contraseña" id="confirmar_password" required>
         <button type="submit">Confirm</button>
       </form>
+    </main>
   </body>
     
     

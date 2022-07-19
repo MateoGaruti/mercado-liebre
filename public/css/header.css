@@ -18,7 +18,11 @@ header {
     width: 35vw;
     display: flex;
     justify-content: center;
-    
+}
+
+.imagen-prin a{
+    display: flex;
+    justify-content: center;
 }
 
 .logo-mp { /*Modifico SOLO EL LOGO de mp*/
@@ -35,6 +39,7 @@ header {
 .menues { /*Muevo todo lo rojo*/
     /*background-color: red; /Si te perdes activa esto*/
   display: none;
+
 }
 
 
@@ -64,7 +69,23 @@ header {
     display: flex;
     justify-content: center;
     width:45vw;
+    
 }
+
+#busqueda button{
+    background-color: snow;
+    border: none;
+    height: 40px;
+    border-radius: 0px 5px 5px 0px;
+}
+
+#busqueda input{
+    border:none;
+    height: 40px;
+    border-radius: 5px 0px 0px 5px;
+    padding: 10px;
+}
+
 /*todos los media son hereditario*/
 .menues {
     display: none;
