@@ -58,11 +58,7 @@ span {
     padding-left: 10px;
 }
 
-.modelo-caf, .modelo-mac, .modelo-sam, .modelo-tv {
-    font-weight: bold;
-    
-
-}  /*LETRAS DEL MODELO */
+  /*LETRAS DEL MODELO */
 
 .caja{
     padding: 1px;
@@ -92,16 +88,6 @@ span {
     top: -15px;
     transition: all 300ms;
 }
-
-
-
-
-
-
-
-
-
-
 
 
 

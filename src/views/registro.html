@@ -44,7 +44,7 @@
          <i class="fa-solid fa-bars"></i>
       </div>   
   </header>
-    <main>
+    <main> <!--ARRANCA EL REGISTRO-->
       <form id="registro" action="/" method="post"> <!-- SE PODRIA HACER PERO SE VA A COMPLICAR CON UNA SECCTION -->
         <input type="text" placeholder="Nombre y Apellido">
         <input type="text" placeholder="Nombre de usuario">
@@ -52,7 +52,7 @@
         <h2>Fehca de nacimiento</h2>
         <input type="date" placeholder="Fecha de nacimiento">
         <input type ="text" placeholder="Domiciolio">
-        <h2>Perfil de usuario</h2>
+        <h3>Perfil de usuario</h3>
         <article id="radio">
           <section class="radio"> <!-- Radio -->
             <input type="radio" name="tipodeuso" id="comprador" value="comprador">
@@ -63,7 +63,7 @@
             <label for="vendedor" >vendedor</label>
           </section>
         </article>
-        <h3>Intereses</h3> <!-- checkbox -->
+        <h2>Intereses</h2> <!-- checkbox -->
         <section class="check">
           <input type="checkbox" name="interes" id="electro" value="electro">
           <label for="electro">Electro</label>
@@ -84,8 +84,11 @@
           <input type="checkbox" name="interes" id="vida-sana" value="vida-sana">
           <label for="vida-sana">vida sana</label>
         </section>
-        <input type="file" name="imagen-perfil" accept=".jpg">Imagen  
-        <h4>Contraseña</h4>
+        <section class="img-perfil">
+           <span>Imagen de perfil</span>
+          <input type="file" name="imagen-perfil" accept=".jpg"> 
+        </section>
+          <h4>Contraseña</h4>
         <input type="password" placeholder="Contraseña" id="password" required>
         <input type="password" placeholder="Confirmar contraseña" id="confirmar_password" required>
         <section class="boton-abajo">

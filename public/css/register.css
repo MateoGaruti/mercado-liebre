@@ -1,3 +1,12 @@
+h2{
+    padding-top: 15px;
+}
+
+h3{
+    font-size: 25px;
+    padding: 25px 0px ;
+}
+
 
 main{
     background-color: #ebebeb;
@@ -27,11 +36,23 @@ main{
     display: flex;
     justify-content: space-around;
     padding: 20px 0px 0px 0px;
-    
-
 }
 
 .boton-abajo button{    
     width: 100px;
 }
 
+.img-perfil{
+    display: flex;
+    justify-content: center;
+}
+
+.img-perfil span{
+    width: 100%;
+    font-size: 15px;
+    padding-top: 25px;
+}
+
+.img-perfil input{
+    width: 100%;
+}
