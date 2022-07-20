@@ -33,13 +33,20 @@ header {
     padding: 25px;
 }
 
-
+.menues a:hover{ /*le doy color a los links cuando paso con el mouse*/
+    color: #236cd8;
+}
 
 
 .menues { /*Muevo todo lo rojo*/
     /*background-color: red; /Si te perdes activa esto*/
   display: none;
+  
 
+}
+
+.menues a{
+    color:black;
 }
 
 
@@ -52,7 +59,7 @@ header {
     border-radius: 15%;
 }
 
-.barcs{
+.barcs{ /*HAMBURGERRRRRRRR*/
     display: flex;
     justify-content: center;
     padding: 15px;
@@ -91,6 +98,12 @@ header {
     display: none;
 }
 
+
+
+/* AQUI SE ENCUENTRA LAS MEDIA*/
+
+
+
 @media (min-width:768px) { /*MEDIDA TABLET*/
     header {
         background-color: #EAC926;
@@ -113,11 +126,14 @@ header {
         padding: 15px 15px 15px;
         font-size: 15px;
     }
+
+
     .menu-uno {
         flex-grow: 1;
         display:flex;
         gap:1rem
     }
+
     
     .menu-dos{
         display:flex;
@@ -127,7 +143,7 @@ header {
     }
 
     .logo-mp{
-        width: 60%;
+        width: 70%;
     }
 
     #busqueda{

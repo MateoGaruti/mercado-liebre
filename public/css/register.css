@@ -23,3 +23,15 @@ main{
     margin:15px;
 }
 
+.boton-abajo{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 0px 0px 0px;
+    
+
+}
+
+.boton-abajo button{    
+    width: 100px;
+}
+

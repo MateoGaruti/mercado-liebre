@@ -12,25 +12,92 @@
   <!--iconos-->
   <link  href="/css/header.css"  rel="stylesheet">  
   <link  href="/css/footer.css"  rel="stylesheet">
-  <link  href="/css/register.css"  rel="stylesheet">
+  <link  href="/css/login.css"  rel="stylesheet">
   <title>login</title>
 </head>
 <body>
-  <form id="nombre">
-    <input type="text" name="nombre-usuario" placeholder="nombre de usuario">
-    <input type="password" name="contraseña-usuario" placeholder="contraseña">
-  </form>
-  <form action="http://localhost:1000/">
-    <input type="submit" value="Pagina Principal" />
-  </form>
+  <header>
+    <section id="header-top"> 
+        <picture class="imagen-prin">
+                <a href="/" ><img class="logo-mp" src="/img/logo-mercado-liebre.svg"></a>
+        </picture>
+            <form id="busqueda">
+                <input type="search" placeholder="Buscar Productos, marcas">
+                <button><i class="fa-solid fa-magnifying-glass"></i></button>    
+            </form>
+            <p class="cuotas"><i class="fa-solid fa-hand-holding-dollar"></i>Compra en cuotas y sin tarjeta de credito </p>
+    </section>
+    <section class="menues">
+        <nav class="menu-uno">
+            <a class="ofertas" href="#">Ofertas </a>
+            <a class="tiendas" href="#">Tiendas oficial</a>
+            <a class="vender" href="#">Vender</a>
+            <a class="ayudas" href="#">Ayuda</a>
+        </nav>
+        <nav class="menu-dos">
+            <a class="crear-cuenta" href="/registro">Crea tu ceunta<i class="fa-solid fa-address-card"></i></a>
+            <a class="ingresa" href="/login">Ingresá <i class="fa-solid fa-arrow-right-to-bracket"></i></a>
+            <a class="compras" href="#">Mis compras <i class="fa-solid fa-cart-shopping"></i></a> 
+        </nav>
+    </section>
+    <div class="barcs">
+       <i class="fa-solid fa-bars"></i>
+    </div>   
+    <form id="ingreso">  <!--CODIGO DE LA PARTE lOGIN-->
+      <input type="text" name="nombre-usuario" placeholder="Nombre de Usuario">
+      <input type="password" name="contraseña-usuario" placeholder="Contraseña">
+    </form>
+    <form class="botonera">
+      <button type="submit">Confirm</button>
+      <button type="reset">reset</button>
+    </form>
+  </header>
+  <footer> 
+    <ul>
+        <li class="texto-eft">
+            <i class="fa-solid fa-credit-card"></i>
+            <h2>Paga con tarjeta o efectivo</h2>
+            <p>Con Mercado Liebre Cash, tenés cuotas sin interés con tarjeta o efectivo en
+            puntos de pago. ¡Y siempre es seguro!</p>  
+        </li>
+        <li class="texto-envios">
+            <i class="fa-solid fa-gift"></i>
+            <h3 class="titulo-envios">Envio gratis desde $2.500</h3>
+            <p>Solo por estar registrad@ en Mercado Liebre tenés envíos gratis en miles de
+            productos. Es un beneficio de Mercado puntos </p>
+        </li>
+        <li class="texto-seg">    
+            <i class="fa-solid fa-user-shield"></i>
+            <h4 class="titulo-segu">Seguridad, de principio a fin</h4> 
+            <p>¿No te gusta? ¡Devolvelo! En Mercado Liebre, no hay nada que no puedas hacer,
+            porque estás siempre protegid@.</p>
+        </li> 
+    </ul>
+    <h5> copyright © 1999-2020 MercadoLiebre S.R.L.</h5>      
+</footer>
 </body>
 </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 <!--
 <p>
   <button type="submit">enviar </button>
   <button type="menu">menu</button>
   <button type="reset">restart</button>
-</p>-->
+</p
 
-"test": "nodemon mercado.js"  mover de lugar
+"test": "nodemon mercado.js"  mover de lugar>-->
