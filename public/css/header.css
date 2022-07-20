@@ -41,8 +41,6 @@ header {
 .menues { /*Muevo todo lo rojo*/
     /*background-color: red; /Si te perdes activa esto*/
   display: none;
-  
-
 }
 
 .menues a{
@@ -53,7 +51,7 @@ header {
 .fa-bars{ /*BURGER*/
     font-size: 40px;
     color: white;
-    background-color: #236cd8;
+    background-color: #0043a8;
     padding:15px;
     /*border: 4px solid black ;*/
     border-radius: 15%;
@@ -75,8 +73,8 @@ header {
 #busqueda { 
     display: flex;
     justify-content: center;
-    width:45vw;
-    
+    width:100%;
+    padding: 5px 0px;   
 }
 
 #busqueda button{
@@ -84,6 +82,10 @@ header {
     border: none;
     height: 40px;
     border-radius: 0px 5px 5px 0px;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #busqueda input{
@@ -111,8 +113,7 @@ header {
     .barcs {
         display: none;
     }
-   
-   
+
     #header-top {
         background-color: #EAC926;
         display: flex;
@@ -127,14 +128,12 @@ header {
         font-size: 15px;
     }
 
-
     .menu-uno {
         flex-grow: 1;
         display:flex;
         gap:1rem
     }
 
-    
     .menu-dos{
         display:flex;
         flex-grow: 1;
@@ -147,12 +146,11 @@ header {
     }
 
     #busqueda{
-        align-items: center;
+        width: auto;
+        align-self: center;
     }
+
     #busqueda input{  
-        width: 1000px;
-        height: 40px;
-        
         border-color: none;
     }
 }

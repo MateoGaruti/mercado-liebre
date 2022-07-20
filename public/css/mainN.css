@@ -29,6 +29,10 @@ section h2{
     background-color:white;
 }
 
+.productos li .fa-truck:hover{ /*CAMION SE MUEVE*/
+    transform: rotate(-90deg);
+}
+
 
 .img-banner img{
     max-width: 100%;
@@ -38,11 +42,10 @@ section h2{
 }
 
 .img-cafe, .img-mac, .img-cel, .img-tv{
-    max-width: 100%;
-    
+    max-width: 100%;    
 }
 
-p {
+main p{
     display: flex;
     padding: 10px;
     
@@ -87,6 +90,7 @@ span {
     position: absolute; 
     right: 20px;
     top: -15px;
+    transition: all 300ms;
 }
 
 
